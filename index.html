@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo Rodriguez</title>
+    <link rel="stylesheet" href="stilos.css">
+
+    <!-- Fuentes "ROBOTO" y "OPEN SANS" de https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#datos">DATOS PERSONALES</a></li>
+                    <li><a href="#estudios">ESTUDIOS ACADEMICOS</a></li>
+                    <li><a href="#experiencia">EXPERIENCIA LABORAL</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#cursos">CURSOS</a></li>
+                </ul>
+           </nav>
+
+            <section id="encabezado" class="encabezado">
+                <article id="perfil">
+                    <figure id="foto">
+                        <img src="https://randomuser.me/api/portraits/men/87.jpg" alt="foto de la persona para el cv" id="imagen-CV">
+                    </figure>
+                </article>
+                <article id="nombreTitulo">
+                    <h1 class="nombreTitulo" class="nombreTitulo" >Rodriguez</h1>
+                    <h1 class="nombreTitulo"  class="nombreTitulo" >Enzo Ariel</h1>
+                    <h2 class="nombreTitulo" class="nombreTitulo" >Estudiante</h2>
+                </article>
+           </section>   
+        </header>
+
+        <main id="cuerpo">
+            <section id="info" class="tematica">
+                <article id="datos" class="titulo">
+                   <h3 class="resaltar" id="">Datos Personales</h3>
+                    <article>
+                        <p class="titulo">
+                          <ul>
+                            <li> Fecha de Nacimiento: 25/05/1985</li>
+                            <li>Nacionalidad: Argentino</li>
+                            <li>Estado civil: Soltero</li>
+                            <li>Direccion: Chacabuco 125 - CABA </li>
+                        </p>
+                        </ul>           
+                    </article>
+                
+                </article>            
+            </section>
+
+            <section class="tematica">
+                <article id="estudios" class="titulo" >
+                    <h3 class="resaltar">Estudios Academicos</h3>
+                       <article>
+                        <p class="titulo">
+                        <ul>
+                           <li>Ingenieria Industrial: Cursando</li>
+                           <li> Secundario: Completo</li>
+                            <li> Primario: Completo</li>
+                        </ul>
+                    </p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="tematica">
+                <article id="experiencia" class="titulo">
+                           <h3 class="resaltar">Experiencia Laboral</h3>
+                     <article>
+                        <p class="titulo">
+                            <ul>
+                                <li>2018-2022 Soporte Tecnico en Informatica </li>
+                                <li>2014-2016 Ayudante de Manteniento Industrial</li>
+                                <li>2011-2012  Pasante de Desarrollador Web</li>
+                             </ul>
+                        </p>
+                     </article>
+                
+                </article>
+
+            </section >
+
+            <section class="tematica">
+                 <article id="habilidades" class="titulo">
+                       <h3 class="resaltar">Habilidades</h3>
+                         
+                   </article>
+                   <article>
+                    <p>
+                        "html:"
+                        <progress class="barraprogreso" max="100" value="30"></progress>
+                     </p>
+                     <p>
+                         "Payton:"
+                         <progress class="barraprogreso" max="100" value="50"></progress>
+                      </p>
+                      <p>
+                         "Java Script:"
+                         <progress class="barraprogreso" max="100" value="70"></progress>
+                      </p>  
+        
+                   </article>
+                </section>   
+
+              <section class="tematica">
+                <article id="cursos" class="titulo">
+                      <h3 class="resaltar">Cursos y Capacitaciones</h3>
+                    <article>
+                       <p class="titulo">
+                        <ul>
+                            <li>Desarrollador Web</li>
+                            <li>Introduccion a la Programacion</li>
+                            <li>Reparacion de Computadoras</li>
+                         </ul>
+                       </p>
+                    </article>
+                </article>  
+
+            </section>
+
+       
+
+     <div>
+        <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+        <p id="telefono"></p>
+    
+        <script>
+             function MostrarTelefono(){
+                document.getElementById("telefono").innerHTML = "11-14526385 // EnzoRodriguez8@gmail.com.ar";
+             }
+        </script>
+
+     </div>
+   
+
+
+    
+</body>
+</html>
